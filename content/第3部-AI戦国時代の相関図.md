@@ -8,58 +8,13 @@
 
 現代の AI 業界は、大きく **3つの陣営** と、すべての陣営に武器（GPU）を売る **1人の絶対王者** に分かれます。
 
-```
-                    ┌─────────────────────────┐
-                    │   🟨 NVIDIA（フアン）    │
-                    │   絶対王者・武器商人      │
-                    │   全員がここに依存        │
-                    └───────────┬─────────────┘
-                                │ GPU供給
-          ┌─────────────────────┼─────────────────────┐
-          │                     │                     │
-   ┌──────▼──────┐      ┌───────▼───────┐     ┌──────▼──────┐
-   │ 🟥 Microsoft │      │ 🟩 反OpenAI派  │     │ 🟦 マスク   │
-   │  × OpenAI   │      │ Anthropic     │     │  陣営       │
-   │  元祖王者    │      │ Meta          │     │ SpaceX×Cursor│
-   └─────────────┘      └───────────────┘     └─────────────┘
-```
+[DIAGRAM:OVERVIEW]
 
 ---
 
 ## 勢力相関図（詳細）
 
-```mermaid
-flowchart TB
-    subgraph NVIDIA["🟨 NVIDIA — 絶対王者"]
-        JH["ジェンスン・フアン CEO"]
-    end
-
-    subgraph MSOpenAI["🟥 Microsoft × OpenAI — 元祖・絶対王者"]
-        SN["サティア・ナデラ<br/>Microsoft CEO"]
-        SA["サム・アルトマン<br/>OpenAI CEO"]
-        SN <-->|"130億ドル+出資<br/>同盟かつ競合"| SA
-    end
-
-    subgraph AntiOpenAI["🟩 反OpenAI派 — 安全とオープンソース"]
-        DA["ダリオ・アモデイ<br/>Anthropic CEO"]
-        MZ["マーク・ザッカーバーグ<br/>Meta CEO"]
-        SP["スンダー・ピチャイ<br/>Google CEO"]
-        SP -->|"巨額出資"| DA
-        DA -.->|"OpenAIから独立"| SA
-        MZ -->|"Llama無償公開<br/>ビジネスモデル破壊"| SA
-    end
-
-    subgraph Musk["🟦 マスク陣営 — 最強のダークホース"]
-        EM["イーロン・マスク"]
-        MT["マイケル・トルエル<br/>Cursor / Anysphere"]
-        EM -->|"600億ドル買収"| MT
-        EM -.->|"共同創業→決裂→裁判"| SA
-    end
-
-    JH --> MSOpenAI
-    JH --> AntiOpenAI
-    JH --> Musk
-```
+[DIAGRAM:FACTIONS]
 
 ---
 
@@ -249,27 +204,6 @@ SpaceX（マスク）    ──┘
 ### 3. 速度 vs 安全
 - **速度・スケール**：アルトマン、トルエル、ザッカーバーグ
 - **安全・倫理**：アモデイ
-
----
-
-## 確認クイズ
-
-1. OpenAI から Anthropic に独立した理由は何？
-2. 2023年アルトマン解任騒動で、ナデラはどう動いた？
-3. Meta の Llama 公開戦略が「破壊的」な理由は？
-4. なぜ NVIDIA はどの陣営にも属さないのに最大の権力を持つのか？
-5. 2026年に AI 業界の勢力図を大きく変えた出来事は？
-
-<details>
-<summary>答えを見る</summary>
-
-1. OpenAI の **商業化加速** と **AI 安全性軽視** への危機感。アモデイはアライメント（暴走防止）を最優先するため、研究者仲間と独立した。
-2. アルトマン解任直後に **「Microsoft でアルトマンと全 OpenAI 社員を雇う」** と宣言。結果、取締役会が崩壊しアルトマンは5日で復帰。Microsoft の OpenAI への影響力が露呈した。
-3. 高性能 AI を **無料・オープンソース** で全世界に公開することで、OpenAI や Google の **有料ビジネスモデルそのものの価値** を揺るがすから。
-4. Google、OpenAI、Meta、Microsoft、SpaceX など **すべての AI 開発者が NVIDIA の GPU を必要とする** から。フアンは「配分権」を持つ唯一の存在。
-5. **SpaceX による Cursor（Anysphere）の 600億ドル買収**。マスク陣営が AI モデル（xAI）に加え開発ツール（Cursor）まで縦統合し、第3の巨大勢力として台頭した。
-
-</details>
 
 ---
 

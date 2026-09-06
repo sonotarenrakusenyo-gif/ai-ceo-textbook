@@ -66,23 +66,4 @@ Windows・Office・Azure を柱に、OpenAI へ 130億ドル超の出資。Copil
 
 ---
 
-## 確認クイズ
-
-1. ChatGPT を開発している会社の正式名称は？
-2. Llama を公開している Meta の CEO は誰？
-3. GPU で AI 業界を支配している会社と CEO は？
-4. Cursor の開発元の正式な会社名は？
-
-<details>
-<summary>答えを見る</summary>
-
-1. **OpenAI, Inc.**（CEO：サム・アルトマン）
-2. **マーク・ザッカーバーグ**（Meta Platforms, Inc.）
-3. **NVIDIA Corporation**（CEO：ジェンスン・フアン）
-4. **Anysphere, Inc.**（CEO：マイケル・トルエル）
-
-</details>
-
----
-
 [← 目次に戻る](./README.md)　|　[第2部：CEO詳細プロフィール →](./第2部-CEO詳細プロフィール.md)
