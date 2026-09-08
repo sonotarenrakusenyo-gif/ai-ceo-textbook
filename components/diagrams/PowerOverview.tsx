@@ -28,7 +28,7 @@ export function PowerOverview() {
         </div>
         <div className="rounded-xl border border-blue-500/40 bg-blue-500/10 p-3 text-center">
           <div className="text-sm font-bold text-blue-300">🟦 マスク陣営</div>
-          <div className="mt-1 text-xs text-blue-200/60">SpaceX × Cursor</div>
+          <div className="mt-1 text-xs text-blue-200/60">マスク × Cursor</div>
         </div>
       </div>
     </div>

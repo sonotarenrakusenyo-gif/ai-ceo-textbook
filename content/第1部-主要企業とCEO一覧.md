@@ -16,7 +16,7 @@
 
 ---
 
-## 7社一覧表
+## 8社一覧表
 
 | サービス名 / 企業名 | 正式な会社名 | 社長 / CEO |
 |:---|:---|:---|
@@ -27,6 +27,7 @@
 | **Cursor**（AIコードエディタ） | **Anysphere, Inc.** | **マイケル・トルエル**（Michael Truell） |
 | **Meta**（Instagram / Llama） | **Meta Platforms, Inc.** | **マーク・ザッカーバーグ**（Mark Zuckerberg） |
 | **Microsoft**（Copilot など） | **Microsoft Corporation** | **サティア・ナデラ**（Satya Nadella） |
+| **SpaceX / xAI**（宇宙・AI） | **Space Exploration Technologies Corp.** / **xAI Corp.** | **イーロン・マスク**（Elon Musk） |
 
 ---
 
@@ -53,6 +54,9 @@ Facebook・Instagram・WhatsApp を傘下に持つ SNS 帝国。Llama シリー�
 ### Microsoft
 Windows・Office・Azure を柱に、OpenAI へ 130億ドル超の出資。Copilot として自社製品全体に AI を統合し、時価総額トップクラスへ返り咲き。
 
+### SpaceX / xAI
+CEO マスクが率いる **宇宙（SpaceX）× 自動運転（Tesla）× AI（xAI）× 開発ツール（Cursor）** の縦統合エコシステム。2023年に xAI を設立し Grok を展開。2026年6月、Anysphere（Cursor）を 600億ドルで買収し、AI 業界の勢力図を大きく書き換えた。
+
 ---
 
 ## 覚え方のヒント
@@ -63,6 +67,7 @@ Windows・Office・Azure を柱に、OpenAI へ 130億ドル超の出資。Copil
 | **略称と正式名** | Meta ← 旧 Facebook Inc. |
 | **PBC とは** | Anthropic PBC = Public Benefit Corporation（公益法人） |
 | **Anysphere ≠ Cursor** | 会社名は Anysphere、製品名が Cursor |
+| **SpaceX ≠ xAI** | 同じマスクだが法人は別。宇宙と AI で分かれる |
 
 ---
 

@@ -28,7 +28,7 @@ const factions = [
     color: "blue",
     emoji: "🟦",
     title: "マスク陣営",
-    members: ["イーロン・マスク", "トルエル（Cursor）"],
+    members: ["イーロン・マスク（SpaceX/xAI）", "トルエル（Cursor）"],
     border: "border-blue-500/40",
     bg: "bg-blue-500/10",
     text: "text-blue-300",

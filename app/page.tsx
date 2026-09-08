@@ -12,7 +12,7 @@ export default function HomePage() {
           <span className="text-indigo-400">戦国時代のCEO教科書</span>
         </h1>
         <p className="mt-3 text-sm leading-relaxed text-slate-400">
-          7人のCEOと4つの陣営が織りなす
+          8人のCEOと4つの陣営が織りなす
           <br />
           現代AI業界の全体像
         </p>
@@ -25,7 +25,7 @@ export default function HomePage() {
         <ul className="space-y-2 text-sm text-slate-300">
           <li className="flex gap-2">
             <span>📋</span>
-            <span>主要7社の正式名称と現CEO</span>
+            <span>主要8社の正式名称と現CEO</span>
           </li>
           <li className="flex gap-2">
             <span>👤</span>
@@ -79,6 +79,7 @@ export default function HomePage() {
             ["ザッカーバーグ", "Meta"],
             ["ナデラ", "Microsoft"],
             ["フアン", "NVIDIA"],
+            ["マスク", "SpaceX/xAI"],
           ].map(([name, company]) => (
             <div
               key={name}

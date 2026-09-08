@@ -5,7 +5,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "AI・テック帝国 CEO教科書",
   description:
-    "現代AI業界を動かす7人のCEOと、戦国時代の勢力図を学ぶ教科書",
+    "現代AI業界を動かす8人のCEOと、戦国時代の勢力図を学ぶ教科書",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
